@@ -42,7 +42,7 @@ for (i, rect) in enumerate(rects):
 
     # caso a opção de mostrar a bounding box esteja habilitada
     if bbox == True:
-        # [i.e., (x, y, w, h)], em seguida, desenha a caixa delimitadora de rosto
+        # [i.e., (x, y, w, h)] desenha a caixa delimitadora de rosto
         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
     # faz um loop sobre as coordenadas (x, y) para os pontos de referência faciais
