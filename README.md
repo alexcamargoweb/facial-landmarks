@@ -6,7 +6,7 @@ Referência:
 
 Adrian Rosebrock, Facial landmarks with dlib, OpenCV, and Python. PyImageSearch.       
 Disponível em: https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/.   
-Acessado em: 16/01/2021.   
+Acessado em: 05/01/2021.   
 
 Contato:   
 
