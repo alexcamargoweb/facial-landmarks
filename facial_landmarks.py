@@ -14,8 +14,8 @@ import imutils
 import dlib
 import cv2
 
-shape_predictor = 'predictor/shape_predictor_68_face_landmarks.dat' # preditor das partes rosto
-input_image = 'image/input.jpg' # imagem a ser detectada
+shape_predictor = 'predictor/shape_predictor_68_face_landmarks.dat' # preditor das partes do rosto
+input_image = 'input/input.jpg' # imagem a ser detectada
 bbox = True # exibe ou não a bouding box
 
 # inicializa o detector de rosto dlib (baseado em HOG)
@@ -51,5 +51,5 @@ for (i, rect) in enumerate(rects):
         cv2.circle(image, (x, y), 1, (0, 0, 255), -1)
 
 # exibe a imagem de saída com as detecções
-cv2.imshow("Facial Landmarks detector", image)
+cv2.imshow("Facial Landmarks image detector", image)
 cv2.waitKey(0)
