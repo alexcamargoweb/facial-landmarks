@@ -19,7 +19,6 @@ import dlib
 import cv2
 
 shape_predictor = 'predictor/shape_predictor_68_face_landmarks.dat'  # preditor das partes do rosto
-input_image = 'input/input.jpg'  # imagem a ser detectada
 
 # inicializa o detector de rosto dlib (baseado em HOG)
 detector = dlib.get_frontal_face_detector()
